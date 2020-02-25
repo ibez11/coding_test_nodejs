@@ -130,7 +130,7 @@ class UserController extends ApiController
                         list.push(x.name)
                     })
 
-                    this.jsonResponse.setData(list);
+                    this.jsonResponse.setData({tasks: list});
                     this.jsonResponse.setMessage("success");
                 } catch(e) {
                     this.jsonResponse.setMessage(e.message);
