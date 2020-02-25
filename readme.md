@@ -11,9 +11,38 @@ git clone https://github.com/ibez11/coding_test_nodejs
 cd coding_test_nodejs
 npm install
 ```
-
 Then,
 ```bash
-composer require ajthinking/php-file-manipulator @dev
-php artisan vendor:publish --provider="PHPFileManipulator\ServiceProvider"
+node_modules/.bin/sequelize db:migrate
+```
+Finally in host root run
+```bash
+npm start
+```
+
+## List API Url
+```bash
+1. http://localhost:8000/api/register 
+
+•	Endpoint: POST /api/register
+•	Headers: Content-type: application/json
+•	Success response status: 204 No Content
+
+2. http://localhost:8000/api/assign
+
+•	Endpoint: POST /api/assign
+•	Headers: Content-type: application/json
+•	Success response status: 204 No Content
+
+3. http://localhost:8000/api/unassign
+
+•	Endpoint: POST /api/unassign
+•	Headers: Content-type: application/json
+•	Success response status: 204 No Content
+
+4. http://localhost:8000/api/tasks/common
+•	Endpoint: GET /api/tasks/common
+•	Headers: Content-type: application/json
+•	Success response status: 200
+
 ```
