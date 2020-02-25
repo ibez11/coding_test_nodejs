@@ -2,7 +2,6 @@ const ApiController = require('./ApiController');
 const qs = require("qs");
 const User = require("../CodingTest/Repository/User");
 const UserModel = require("../models/UsersModel");
-// const UserFinder = require("../Rekber/Repository/Finder/UserFinder");
 
 class UserController extends ApiController
 {
@@ -73,7 +72,6 @@ class UserController extends ApiController
 
                     this.jsonResponse.setMessage("success");
                 } catch(e) {
-                    console.log(e)
                     this.jsonResponse.setMessage(e.message);
                     this.jsonResponse.setError(true);
                 }
