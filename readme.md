@@ -15,9 +15,14 @@ Then,
 ```bash
 node_modules/.bin/sequelize db:migrate
 ```
-Finally in host root run
+Finally run
 ```bash
 npm start
+```
+
+If not running
+```bash
+npm install -g node-dev
 ```
 
 ## List API Url
