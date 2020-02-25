@@ -1,4 +1,4 @@
-# ```Coding Test```(:fire::fire::fire:);
+# ```Coding Test```(:fire::fire::fire:)
 
 ## Contents
   * [Installation](#installation)
@@ -44,6 +44,7 @@ npm install -g node-dev
 •	Success response status: 204 No Content
 
 4. http://localhost:8000/api/tasks/common
+
 •	Endpoint: GET /api/tasks/common
 •	Success response status: 200
 ```
