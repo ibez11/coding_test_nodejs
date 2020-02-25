@@ -7,22 +7,13 @@
 
 ## Contents
   * [Installation](#installation)
-  * [Usage](#usage)
-    + [Quick start examples](#quick-start-examples)    
-    + [Build your own templates](#build-your-own-templates)
-    + [Querying the Abstract Syntax Tree](#querying-the-abstract-syntax-tree)
-    + [LaravelFile available methods](#laravelfile-available-methods)    
-    + [Gotchas](#gotchas)
-  * [Contributing](#contributing)
-    + [Development installation](#development-installation)
-    + [Roadmap](#roadmap)  
-  * [License](#license)
-  * [Acknowledgements](#acknowledgements)
-  * [Like this package?](#like-this-package-)
+
 
 ## Installation
 
 ```bash
+git clone https://github.com/ibez11/coding_test_nodejs
+cd coding_test_nodejs
 npm install
 ```
 
