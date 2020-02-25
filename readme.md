@@ -24,6 +24,10 @@ npm start
 If not running
 ```bash
 npm install -g node-dev
+
+and then
+
+npm start
 ```
 
 ## List API URL
