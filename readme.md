@@ -2,6 +2,7 @@
 
 ## Contents
   * [Installation](#installation)
+  * [List API URL](#installation)
 
 
 ## Installation
@@ -25,7 +26,7 @@ If not running
 npm install -g node-dev
 ```
 
-## List API Url
+## List API URL
 ```bash
 1. http://localhost:8000/api/register 
 
